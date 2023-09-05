@@ -7,7 +7,6 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-    copy: typeof import('./components/HelloWorld copy.vue')['default']
     Czx: typeof import('./components/czx.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     IconCommunity: typeof import('./components/icons/IconCommunity.vue')['default']
