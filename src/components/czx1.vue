@@ -7,7 +7,7 @@ export default {
 
 <template>
   <div class="greetings" v-if="show">
-    czx
+    czx1
   </div>
   <button @click="toggleShow">fn</button>
 </template>
